@@ -1,4 +1,9 @@
 resource "azurerm_resource_group" "rgpure"{
  name = "infrarg"
- location = "west us"
+ location = "Central India"
+}
+
+resource "azurerm_resource_group" "rgnewpune"{
+ name = "newrg"
+ location = "south india"
 }
