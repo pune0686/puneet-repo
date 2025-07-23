@@ -9,7 +9,7 @@ terraform {
 
 provider "azurerm" {
   feature{}
-   subscription id= "98f7ad67-2ec8-4554-b1bb-a4515981ec44"
+   subscription id = "98f7ad67-2ec8-4554-b1bb-a4515981ec44"
 }
 
 resource "azurerm_resource_group" "rgpure"{
